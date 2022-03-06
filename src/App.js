@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 
 const api = {
   key: "",
-  getLocation: "http://dataservice.accuweather.com/locations/v1/cities/search",
-  hourlyForecast: "http://dataservice.accuweather.com/forecasts/v1/hourly/1hour/",
-  dailyForecast: "http://dataservice.accuweather.com/forecasts/v1/daily/1day/"
+  getLocation: "https://dataservice.accuweather.com/locations/v1/cities/search",
+  hourlyForecast: "https://dataservice.accuweather.com/forecasts/v1/hourly/1hour/",
+  dailyForecast: "https://dataservice.accuweather.com/forecasts/v1/daily/1day/"
 }
 
 
